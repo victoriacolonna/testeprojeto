@@ -1,0 +1,291 @@
+body{ background-color:white;
+    color: #f17dad;
+}
+
+.cabecalho{
+    background-color: #f17dad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-block: 25px;
+}
+
+.cabecalho-logo{
+    max-width: 80px;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho-logo:hover{
+    transform: scale(1.1);
+}
+
+.cabecalho-lista{
+    font-family: "Quantico", sans-serif;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.cabecalho-lista-item{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho-lista-item:hover{
+    color: #260500;
+    text-decoration: underline;
+}
+
+.cabecalho-curriculo{
+    background-color: #fffaf2;
+    border-radius: 25px;
+    color: #f17dad;
+    padding: 10px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    font-family: "Quantico", sans-serif;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho-curriculo:hover{
+    background-color: #260500;
+}
+
+.principal{
+    background-image: url("https://i.pinimg.com/originals/9e/40/70/9e40708b7f7b6d11ab3d4f8d7a03de15.gif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.perfil{
+    background-color: rgba(0, 0, 0, 0.745);
+    background-position: center;
+    border-radius: 40px;
+    padding: 60px 80px;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    font-family: "Righteous", sans-serif;
+    height: 55vh;
+    width: 100vh;
+  }
+  .perfil img{
+    max-width: 360px;
+    border-radius: 50%;
+    border: 3px solid rgb(246, 243, 243);
+    box-shadow: 4px solid rgba(0, 0, 0, 0.4);
+  }
+  
+  .perfil-nome{
+    font-size: 60px;
+  }
+  .perfil-profissao{
+    font-size: 40px;
+    color: #f17dad;
+  }
+
+  .sobre{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+    max-width: 100vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 9px solid #f17dad;
+    padding-top: 40px;
+  }
+  
+  .sobre-corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 50px;
+  }
+  
+  .sobre-titulo{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Quantico", sans-serif;
+    position: relative;
+    color: #e34c5c;
+  }
+  
+  .sobre-corpo p{
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: "Reddit Mono", monospace;
+    color: #282e3a;
+  }
+  
+  .cursos{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+    max-width: 100vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 9px solid #f17dad;
+    padding-top: 40px;
+  }
+  
+  .caixinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .titulo{
+    max-width: 500px;
+    font-size: 150px;
+    line-height: 1.5;
+    font-family: "Quantico", sans-serif;
+    color: #e34c5c;
+  }
+  .caixinha-cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #282e3a;
+    font-family: "Reddit Mono", monospace;
+  }
+  .curso{
+    max-width: 600px;
+    background-color: #f17dad4a;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Quantico", sans-serif;
+  }
+  
+  .curso-titulo{
+    font-size: 24px;
+    color: #b34766;
+    position: relative;
+    font-family: "Quantico", sans-serif;
+  }
+
+  .curso-nome{
+    color: #e34c5c;
+  }
+  
+  .curso-corpo{
+    line-height: 1.3;
+    font-size: 18px;
+  }
+  
+  .curso-tempo{
+    color: #e34c5c;
+  }
+  
+  .projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 100vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-top: 9px solid #f17dad;
+    padding-top: 40px;
+  }
+
+  .projetos-titulo{
+    padding: 20px 50px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Quantico", sans-serif;
+    color: #e34c5c;
+  }
+
+  .card-projeto{
+    max-width: 600px;
+    background-color: #f17dad4a;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Quantico", sans-serif;
+  }
+  
+  
+  .projeto-corpo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .card-titulo{
+    font-size: 32px;
+    font-family: "Quantico", sans-serif;
+    color: #b34766;
+  }
+  
+  .card-subtitulo{
+    text-decoration: none;
+    font-size: 22px;
+    color: #e34c5c;
+    font-family: "Quantico", sans-serif;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-subtitulo:hover{
+    color: #282e3a;
+  }
+  
+  .card-texto{
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #282e3a;
+    font-family: "Reddit Mono", monospace;
+  }
+  
+  .footer{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 9px solid #f17dad;
+    padding: 20px 0;
+  }
+  
+  .footer-titulo{
+    font-size: 24px;
+  }
+  .footer-curso{
+    font-size: 23px;
+    color: #7b7579;
+  }
+  .footer-nome{
+    font-size: 20px;
+    color: #e34c5c;
+  }
